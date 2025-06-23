@@ -1,0 +1,44 @@
+.url-shortener-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: #c75555;
+  border-radius: 12px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.url-input-group input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.shorten-button {
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.result-list {
+  margin-top: 1.5rem;
+}
+
+.result-item {
+  margin-bottom: 10px;
+}
+
+.result-link {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
